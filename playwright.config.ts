@@ -17,8 +17,8 @@ export default defineConfig({
   use: {
     baseURL: 'https://demoqa.com',
     trace: 'on-first-retry',
-    screenshot: 'on',
-    video: 'on',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
   },
 
   projects: [
