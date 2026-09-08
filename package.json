@@ -1,0 +1,19 @@
+{
+  "name": "qa-technical-assessment",
+  "version": "1.0.0",
+  "description": "Playwright and TypeScript QA technical assessment framework",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "report": "playwright show-report"
+  },
+  "author": "",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.0",
+    "typescript": "^7.0.2"
+  }
+}
